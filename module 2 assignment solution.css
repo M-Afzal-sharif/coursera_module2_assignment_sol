@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: 100px;
+
+}
+
+.content
+{
+    
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    justify-content: center;
+    
+}
+
+.menu
+{
+    width: 30%; 
+    padding: 40px;
+    margin-top: 40px;
+    background-color: gray;
+    border: 3px solid black;
+
+}
+
+
+
+
+.dish
+{
+    position: relative;
+}
+
+.dish p
+{
+    
+    border-style: solid;
+    border-color: transparent transparent black black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    position:absolute ;
+    top: -40px;
+    right:-40px;
+    
+}
+
+
+.menu #col1 p
+{
+    background-color: rgb(227, 146, 159);
+    font-weight: bold;
+}
+
+.menu #col2 p
+{
+    background-color: rgb(195, 60, 16);
+    font-weight: bold;
+    color: white;
+}
+
+.menu #col3 p
+{
+    background-color: rgb(243, 229, 128);
+    font-weight: bold;
+}
+
+@media  (max-width:991px) {
+    
+    .content
+    {
+        
+        display: flex;
+        gap: 30px;
+        padding: 50px;
+        justify-content: center;
+        flex-flow: row wrap;
+        
+    }
+    
+    .menu
+    {
+        width: 40%; 
+        padding: 40px;
+        margin-top: 40px;
+        background-color: gray;
+        border: 3px solid black;
+    
+    }
+
+    #b
+    {
+        width: 83.5%;
+    }
+}
+
+
+@media  (max-width:768px) {
+    
+    .content
+    {
+        
+        display: flex;
+        gap: 20px;
+        padding: 50px;
+        justify-content: center;
+        flex-flow: row wrap;
+        
+    }
+    
+    .menu
+    {
+        width: 100%; 
+        padding: 40px;
+        margin-top: 40px;
+        background-color: gray;
+        border: 3px solid black;
+    
+    }
+
+    #b
+    {
+        width: 100%;
+    }
+}
+
+  
+    
